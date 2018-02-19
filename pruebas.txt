@@ -1,0 +1,19 @@
+Levenstein:
+
+k de 1 -> 24.92%
+k de 2 -> 21.94%
+k de 3 -> 23.29%
+
+
+Chevydios:
+
+k de 1 -> 9.27%
+k de 2 -> 9.42%
+k de 3 -> 9.19%
+
+
+Manhattan:
+
+k de 1 -> 25.36%
+k de 2 -> 20.52%
+k de 3 -> 21.17%

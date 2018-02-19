@@ -36,7 +36,7 @@ class KNN:
             result = self.sortAndClassify(distances, k)
             if(result == test_labels[i]):
                 cont += 1
-            print("resultado: "+str(result) + " | deberia ser: " + str(test_labels[i]))
+            #print("resultado: "+str(result) + " | deberia ser: " + str(test_labels[i]))
         
         mul = cont/len(test_data) * 100 #float(cont * 1.0 /len(test_data * 1.0))
         print "El porcentaje de acierto fue {0}%".format(mul)
@@ -56,7 +56,7 @@ class KNN:
             result = self.sortAndClassify(distances, k)
             if(result == test_labels[i]):
                 cont += 1
-            print("resultado: "+str(result) + " | deberia ser: " + str(test_labels[i]))
+            #print("resultado: "+str(result) + " | deberia ser: " + str(test_labels[i]))
         
         mul = cont/len(test_data) * 100 #float(cont * 1.0 /len(test_data * 1.0))
         print "El porcentaje de acierto fue {0}%".format(mul) 
@@ -75,7 +75,7 @@ class KNN:
             result = self.sortAndClassify(distances, k)
             if(result == test_labels[i]):
                 cont += 1
-            print("resultado: "+str(result) + " | deberia ser: " + str(test_labels[i]))
+            #print("resultado: "+str(result) + " | deberia ser: " + str(test_labels[i]))
         
         mul = cont/len(test_data) * 100 #float(cont * 1.0 /len(test_data * 1.0))
         print "El porcentaje de acierto fue {0}%".format(mul)

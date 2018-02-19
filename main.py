@@ -6,8 +6,11 @@ test_data, test_labels = cifar10.getTestData()
 
 # n son los n primeros del test_data
 # k son los vecinos
-n = 1000
-k = 1
+k = 3
 
 near = KNN(train_data, train_labels)
-near.levenshtein(test_data[0:n],test_labels[0:n],k)
+print("k -> 3")
+print("chevychev")
+near.chevyshev(test_data,test_labels,k)
+print("manhattan")
+near.manhattan(test_data,test_labels,k)
