@@ -9,8 +9,6 @@ test_data, test_labels = cifar10.getTestData()
 k = 3
 
 near = KNN(train_data, train_labels)
-print("k -> 3")
-print("chevychev")
-near.chevyshev(test_data,test_labels,k)
-print("manhattan")
-near.manhattan(test_data,test_labels,k)
+near.levenstein(test_data,test_labels,1)
+near.levenstein(test_data,test_labels,2)
+near.levenstein(test_data,test_labels,3)
